@@ -1,0 +1,24 @@
+{
+    "author" : "Remi Cady Freer",
+    "description" : "Use easing functions in Max for audio, visuals, and automation.",
+    "homepatcher" : "Draw Overview.maxhelp",
+    "max_version_min" : "8.0", "max_version_max" : "none",
+    "name" : "Draw",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        }
+    },
+    "package_extra" : {
+        "reverse_domain" : "com.remifreer",
+        "copyright" : "Copyright (c) 2022 Remi Cady Freer"
+    },
+    "tags" : [ ],
+    "version" : "0.8.0",
+    "website" : "http://remifreer.com"
+}

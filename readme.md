@@ -1,4 +1,4 @@
-#Draw Library for Maxmsp
+# Draw Library for Maxmsp
 
 
 A simple package that provides a simpler interface and workflow for many of Max MSP's jitter objects. Mainly the jit.graphics object.

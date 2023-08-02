@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.000000357627869, 801.333357214927673, 321.0, 50.0 ],
+					"patching_rect" : [ 8.000000357627869, 887.333357214927673, 321.0, 50.0 ],
 					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
 					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
@@ -58,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.000000357627869, 801.333357214927673, 298.0, 20.0 ],
+					"patching_rect" : [ 8.000000357627869, 887.333357214927673, 298.0, 20.0 ],
 					"text" : "[draw] library created by: remi cady freer"
 				}
 
@@ -69,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.514439097180002, 157.0, 99.000000000000028, 20.0 ],
+					"patching_rect" : [ 254.514439097180002, 247.0, 99.000000000000028, 20.0 ],
 					"text" : "second point x"
 				}
 
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.021658645770003, 157.0, 100.0, 20.0 ],
+					"patching_rect" : [ 368.021658645770003, 247.0, 100.0, 20.0 ],
 					"text" : "second point y"
 				}
 
@@ -91,7 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 431.528878194360004, 157.0, 92.0, 20.0 ],
+					"patching_rect" : [ 482.528878194360004, 247.0, 92.0, 20.0 ],
 					"text" : "line thickness"
 				}
 
@@ -104,7 +104,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 429.528878194360004, 190.0, 50.0, 22.0 ]
+					"patching_rect" : [ 480.528878194360004, 280.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 654.0, 273.0, 271.0, 33.0 ],
+					"patching_rect" : [ 650.0, 359.0, 271.0, 33.0 ],
 					"text" : "All shapes start off white, and can be coloured using the draw.colour object"
 				}
 
@@ -161,10 +161,10 @@
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 627.0, 157.0, 143.0, 22.0 ],
+					"patching_rect" : [ 623.0, 243.0, 143.0, 22.0 ],
 					"text" : "draw.line 80 20 0 -100 10"
 				}
 
@@ -176,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 627.0, 216.0, 140.0, 22.0 ],
+					"patching_rect" : [ 623.0, 302.0, 140.0, 22.0 ],
 					"text" : "draw.colour 0.4 0.2 0.8 1"
 				}
 
@@ -188,8 +188,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 38.5, 320.0, 183.0, 22.0 ],
-					"text" : "draw.layer"
+					"patching_rect" : [ 34.5, 406.0, 76.0, 22.0 ],
+					"text" : "draw.overlay"
 				}
 
 			}
@@ -199,7 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.5, 157.0, 70.0, 20.0 ],
+					"patching_rect" : [ 84.5, 247.0, 70.0, 20.0 ],
 					"text" : "first point x"
 				}
 
@@ -210,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.007219548590001, 157.0, 71.000000000000014, 20.0 ],
+					"patching_rect" : [ 169.007219548590001, 247.0, 71.000000000000014, 20.0 ],
 					"text" : "first point y"
 				}
 
@@ -223,7 +223,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 331.771658645770003, 190.0, 50.0, 22.0 ]
+					"patching_rect" : [ 382.771658645770003, 280.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -235,7 +235,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 234.014439097180002, 190.0, 50.0, 22.0 ]
+					"patching_rect" : [ 285.014439097180002, 280.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -247,7 +247,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 136.257219548590001, 190.0, 50.0, 22.0 ]
+					"patching_rect" : [ 187.257219548590001, 280.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -259,7 +259,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 38.5, 190.0, 50.0, 22.0 ]
+					"patching_rect" : [ 89.5, 280.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -267,10 +267,10 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 38.5, 244.0, 410.028878194360004, 22.0 ],
+					"patching_rect" : [ 34.5, 330.0, 410.028878194360004, 22.0 ],
 					"text" : "draw.line 20 -40 -80 10 10"
 				}
 
@@ -288,11 +288,32 @@
 					"maxclass" : "bpatcher",
 					"name" : "draw.screen.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 3,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 38.5, 361.0, 305.0, 415.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 34.5, 447.0, 305.0, 415.0 ],
 					"varname" : "draw.screen",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-21",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "draw.settings.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 34.5, 149.0, 237.926914557647478, 46.855729160336523 ],
 					"viewvisibility" : 1
 				}
 
@@ -315,7 +336,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"midpoints" : [ 636.5, 287.5, 212.0, 287.5 ],
+					"midpoints" : [ 632.5, 373.5, 101.0, 373.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -330,8 +351,24 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 48.0, 291.0, 48.0, 291.0 ],
+					"midpoints" : [ 44.0, 377.0, 44.0, 377.0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"order" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -365,58 +402,79 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "autopatch.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "draw.colour.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/draw.colour",
-				"patcherrelativepath" : "../draw.colour",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.fill.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/draw.fill",
-				"patcherrelativepath" : "../draw.fill",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "draw.layer.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/draw.layer",
-				"patcherrelativepath" : "../draw.layer",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.line.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/draw.line",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "draw.overlay.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/draw.screen",
-				"patcherrelativepath" : "../draw.screen",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "draw.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ut.autopatch.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.default.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/ut.default",
-				"patcherrelativepath" : "../ut.default",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.inlet.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/ut.inlet",
-				"patcherrelativepath" : "../ut.inlet",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.location_in.maxpat",
-				"bootpath" : "~/data Code/Max Msp/draw 0.8.0/ut.location_in",
-				"patcherrelativepath" : "../ut.location_in",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

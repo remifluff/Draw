@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1661.0, 625.0, 75.0, 22.0 ],
+					"text" : "ut.autopatch"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-113",
 					"maxclass" : "newobj",
@@ -1394,7 +1405,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 925.116668534278915, 1446.466691136360168, 50.0, 22.0 ],
-					"text" : "192 -17"
+					"text" : "218 38"
 				}
 
 			}
@@ -1805,7 +1816,7 @@
 					"patching_rect" : [ 925.116668534278915, 1491.833359837532043, 121.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 359.833345890045166, 69.999999999999943, 22.0 ],
-					"text" : "-141 65"
+					"text" : "220 36"
 				}
 
 			}
@@ -1819,7 +1830,7 @@
 					"patching_rect" : [ 633.666665434837341, 1480.837603054881129, 116.000001460313797, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.399999856948853, 359.833345890045166, 89.600000560283661, 22.0 ],
-					"text" : "192 -17 0"
+					"text" : "218 38 0"
 				}
 
 			}
@@ -1943,13 +1954,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 995.496838629245758, 782.333343267440796, 212.0, 38.0 ],
-					"text" : "jit.window draw.window @size 400 400 @idlemouse 1 @grow 0"
+					"patching_rect" : [ 995.496838629245758, 782.333343267440796, 298.0, 23.0 ],
+					"text" : "jit.window @size 400 400 @idlemouse 1 @grow 0"
 				}
 
 			}
@@ -1961,7 +1971,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 736.983338117599487, 246.066672503948212, 30.0, 30.0 ]
 				}
 

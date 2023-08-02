@@ -107,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 513.0, 287.0, 271.0, 33.0 ],
+					"patching_rect" : [ 512.0, 354.0, 271.0, 33.0 ],
 					"text" : "All shapes start off white, and can be coloured using the draw.colour object"
 				}
 
@@ -118,7 +118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0, 157.0, 63.0, 20.0 ],
+					"patching_rect" : [ 373.0, 230.0, 63.0, 20.0 ],
 					"text" : "y position"
 				}
 
@@ -130,7 +130,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 473.0, 195.0, 128.0, 22.0 ],
+					"patching_rect" : [ 472.0, 262.0, 128.0, 22.0 ],
 					"text" : "draw.rect 80 20 0 -100"
 				}
 
@@ -142,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 473.0, 241.0, 140.0, 22.0 ],
+					"patching_rect" : [ 472.0, 308.0, 140.0, 22.0 ],
 					"text" : "draw.colour 0.4 0.2 0.8 1"
 				}
 
@@ -154,7 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 40.5, 318.0, 76.0, 22.0 ],
+					"patching_rect" : [ 39.5, 385.0, 76.0, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -165,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 157.0, 65.0, 20.0 ],
+					"patching_rect" : [ 262.0, 230.0, 65.0, 20.0 ],
 					"text" : "x position"
 				}
 
@@ -176,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 157.0, 50.0, 20.0 ],
+					"patching_rect" : [ 60.0, 230.0, 50.0, 20.0 ],
 					"text" : "Width"
 				}
 
@@ -187,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.0, 157.0, 50.0, 20.0 ],
+					"patching_rect" : [ 151.0, 230.0, 50.0, 20.0 ],
 					"text" : "Height"
 				}
 
@@ -200,7 +200,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 337.5, 189.0, 50.0, 22.0 ]
+					"patching_rect" : [ 375.5, 262.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -212,7 +212,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 238.5, 189.0, 50.0, 22.0 ]
+					"patching_rect" : [ 276.5, 262.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -224,7 +224,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 139.5, 189.0, 50.0, 22.0 ]
+					"patching_rect" : [ 177.5, 262.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.5, 189.0, 50.0, 22.0 ]
+					"patching_rect" : [ 78.5, 262.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -247,7 +247,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 40.5, 241.0, 316.0, 22.0 ],
+					"patching_rect" : [ 39.5, 308.0, 316.0, 22.0 ],
 					"text" : "draw.rect"
 				}
 
@@ -268,13 +268,51 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.5, 357.0, 305.0, 415.0 ],
+					"patching_rect" : [ 39.5, 424.0, 305.0, 415.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "draw.settings.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 39.5, 153.0, 237.926914557647478, 46.855729160336523 ],
 					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 49.0, 221.427864580168261, 481.5, 221.427864580168261 ],
+					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-16", 0 ]
@@ -284,7 +322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"midpoints" : [ 482.5, 277.5, 107.0, 277.5 ],
+					"midpoints" : [ 481.5, 344.5, 106.0, 344.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -306,7 +344,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.0, 235.5, 50.0, 235.5 ],
+					"midpoints" : [ 88.0, 302.5, 49.0, 302.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -314,7 +352,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 149.0, 235.5, 124.25, 235.5 ],
+					"midpoints" : [ 187.0, 302.5, 123.25, 302.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -322,7 +360,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
-					"midpoints" : [ 248.0, 228.5, 198.5, 228.5 ],
+					"midpoints" : [ 286.0, 295.5, 197.5, 295.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -330,13 +368,20 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 3 ],
-					"midpoints" : [ 347.0, 235.5, 272.75, 235.5 ],
+					"midpoints" : [ 385.0, 302.5, 271.75, 302.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "autopatch.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "draw.colour.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -366,6 +411,20 @@
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "draw.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ut.autopatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

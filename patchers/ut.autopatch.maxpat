@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1579.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,562 +40,332 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
+					"fontname" : "Arial",
+					"fontsize" : 11.595186999999999,
+					"id" : "obj-24",
+					"linecount" : 8,
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 273.0, 292.0, 77.0, 22.0 ],
-					"text" : "loadmess 30"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 61.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "Height",
-					"id" : "obj-4",
-					"index" : 3,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1000.98333752155304, 109.733333766460419, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "Width",
-					"id" : "obj-2",
-					"index" : 2,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.98333752155304, 115.733333766460419, 30.0, 30.0 ]
+					"numoutlets" : 0,
+					"patching_rect" : [ 230.0, 30.0, 280.0, 110.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 8,
+					"presentation_rect" : [ 311.0, 110.5, 280.0, 110.0 ],
+					"text" : "remi cady freer - \nut.autopactch was origonally rbtnk.autoBpatcher, i cannot find the origonal autor or website but all credit goes to them. \n\nI must have downloaded this patch is 2016 and used it since them. It just lets patchers automatically open as bpatchers"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"id" : "obj-37",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 576.833329796791077, 587.533323228359222, 109.0, 22.0 ],
-					"text" : "s DrawDimensions"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "number",
-					"maximum" : 60,
-					"minimum" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 178.833329916000366, 264.148151206384, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 187.638457380151635, 24.855729160336523, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-107",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 606.333329796791077, 290.133335173130035, 133.0, 22.0 ],
-					"text" : "r #0controlMessages"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-106",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.600020110607147, 139.666655421257019, 133.0, 22.0 ],
-					"text" : "r #0controlMessages"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-74",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 606.333329796791077, 322.5333331823349, 59.0, 22.0 ],
-					"text" : "route dim"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-72",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 177.600020110607147, 171.19998425245285, 55.0, 22.0 ],
-					"text" : "route fps"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-87",
+					"fontsize" : 11.595186999999999,
+					"hidden" : 1,
+					"id" : "obj-25",
 					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1336.666696429252625, 131.133335173130035, 321.0, 50.0 ],
-					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
-					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1336.666696429252625, 131.133335173130035, 298.0, 20.0 ],
-					"text" : "[draw] library created by: remi cady freer"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2158.291732117366337, 739.613808811889157, 169.666667342185974, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 114.8117715716362, 24.855729160336523, 69.074996277522814, 20.0 ],
-					"text" : "Framerate:",
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-27",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2158.291732117366337, 761.613808811889157, 169.666667342185974, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 119.14510577917099, 1.055729297427206, 37.074995323848498, 20.0 ],
-					"text" : "Dim:",
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 582.166666626930237, 542.548157500634488, 75.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 163.138457380151635, -0.144270839663477, 75.0, 22.0 ],
-					"text" : "400 400",
-					"textjustification" : 1
+					"patching_rect" : [ 119.0, 621.5, 116.0, 47.0 ],
+					"text" : ";\rmax launchbrowser http://www.rbtnk.org/"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "button",
+					"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 11.595186999999999,
+					"id" : "obj-23",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 46.600020110607147, 380.333325386047363, 24.0, 24.0 ],
+					"patching_rect" : [ 119.0, 572.0, 123.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.111542619848365, 24.855729160336523, 22.0, 22.0 ]
+					"presentation_rect" : [ 375.0, 18.5, 123.0, 19.0 ],
+					"text" : "open rbtnk website",
+					"textcolor" : [ 0.242399, 0.30891, 0.423062, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.242399, 0.30891, 0.423062, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 30.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 119.0, 804.5, 35.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 291.0, 35.0, 40.0 ],
+					"text" : "3"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"id" : "obj-6",
+					"fontsize" : 11.595186999999999,
+					"id" : "obj-22",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2161.025064870547794, 831.047139884219632, 169.666667342185974, 20.0 ],
+					"patching_rect" : [ 167.0, 808.5, 280.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.100000202655792, 24.855729160336523, 50.100000321865082, 20.0 ],
-					"text" : "Update",
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 58.0, 295.0, 280.0, 58.0 ],
+					"text" : "When you use your abstraction, you only have to type the abstraction name inside the object box and \nrbtnk.autoBpatcher creates the bpatcher of your abstraction with the size of your presentation layout"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-122",
-					"maxclass" : "toggle",
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 30.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 42.600019991397858, 200.933330476284027, 24.0, 24.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 119.0, 750.5, 34.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.100000202655792, -0.144270839663477, 22.0, 22.0 ]
+					"presentation_rect" : [ 10.0, 237.0, 34.0, 40.0 ],
+					"text" : "2 "
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"id" : "obj-120",
+					"fontsize" : 11.595186999999999,
+					"id" : "obj-15",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2161.025064870547794, 889.633322894573212, 169.666667342185974, 20.0 ],
+					"patching_rect" : [ 167.0, 754.5, 280.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.150000274181366, 1.055729297427206, 84.0, 20.0 ],
-					"text" : "Play Pause",
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 58.0, 241.0, 280.0, 32.0 ],
+					"text" : "Place the abstraction 'rbtnk.autoBpatcher' inside of \nyour abstraction."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.278067648410797, 0.278119802474976, 0.27805483341217, 1.0 ],
-					"bordercolor" : [ 0.971521615982056, 0.504485130310059, 0.166428223252296, 1.0 ],
-					"id" : "obj-118",
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 30.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 119.0, 697.5, 34.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 184.0, 34.0, 40.0 ],
+					"text" : "1 "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"border" : 2,
+					"bordercolor" : [ 1.0, 1.0, 1.0, 0.75 ],
+					"hidden" : 1,
+					"id" : "obj-1",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2186.111115256945595, 581.541661459344255, 48.3333340883255, 23.0 ],
+					"patching_rect" : [ 119.0, 369.0, 31.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.100000202655792, -0.144270839663477, 111.050000071525574, 22.0 ],
-					"proportion" : 0.5,
-					"style" : "rf-1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 606.333329796791077, 352.814834701428708, 59.0, 22.0 ],
-					"text" : "unpack i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-65",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.333329796791077, 455.814834284196195, 46.0, 22.0 ],
-					"text" : "pack i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-64",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 671.999979138374329, 406.814834284196195, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 606.333329796791077, 406.814834284196195, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.600020110607147, 230.26665735244751, 53.0, 22.0 ],
-					"text" : "clip 0 60"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 177.600020110607147, 299.66665780544281, 49.0, 22.0 ],
-					"text" : "!/ 1000."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "Trigger",
-					"id" : "obj-19",
-					"index" : 1,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 46.600020110607147, 443.866651356220245, 30.0, 30.0 ]
+					"presentation_rect" : [ 10.0, 8.0, 31.0, 31.0 ],
+					"rounded" : 10,
+					"varname" : "autohelp_top_picture_panel"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 46.600020110607147, 335.999967217445374, 150.0, 22.0 ],
-					"text" : "qmetro"
+					"fontsize" : 11.595186999999999,
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 167.0, 701.5, 280.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 58.0, 188.0, 280.0, 32.0 ],
+					"text" : "Create your abstraction with GUI elements. Design the presentation view as you like at position 0/0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "On/Off",
-					"id" : "obj-5",
-					"index" : 1,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.754705,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 119.0, 397.0, 485.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 36.0, 485.0, 21.0 ],
+					"text" : "Your abstractions open as bpatcher everywhere you use it",
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"varname" : "autohelp_top_digest"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 11.595187187194824,
+					"id" : "obj-8",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 119.0, 418.0, 502.0, 110.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 8,
+					"presentation_rect" : [ 10.0, 57.0, 499.0, 110.0 ],
+					"text" : "When ever you whant to create GUI elements as abstractions, you have to use it with bpatcher\ninside of other patches.\n\nPlace this abstraction in your patcher of an own abstraction and this abstraction will be open\nautomaticly as a bpatcher when you create it as a patcher. This works only with abstractions,\nnot with subpatchers...\n\nthis helped to create this thing... http://www.cycling74.com/forums/topic.php?id=33551",
+					"varname" : "autohelp_top_description"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 20.871338000000002,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 119.0, 369.0, 485.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 40.0, 8.0, 455.0, 30.0 ],
+					"text" : "rbtnk.autoBpatcher",
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"varname" : "autohelp_top_title"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"fontface" : 3,
+					"fontlink" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.754705,
+					"id" : "obj-19",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 559.920883178710938, 383.0, 49.079116821289062, 14.249397277832031 ],
+					"spacing_x" : 0.0,
+					"spacing_y" : 0.0,
+					"textcolor" : [ 0.348, 0.44, 0.578, 1.0 ],
+					"textoncolor" : [ 0.27, 0.35, 0.47, 1.0 ],
+					"textovercolor" : [ 0.4, 0.5, 0.65, 1.0 ],
+					"underline" : 1,
+					"varname" : "autohelp_top_ref"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-6",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.98333752155304, 109.733333766460419, 30.0, 30.0 ]
+					"patching_rect" : [ 7.0, 4.5, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.815686274509804, 0.611764705882353, 0.462745098039216, 0.0 ],
-					"id" : "obj-53",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 77.5, 95.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "autopatch.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js autopatch.js 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"background" : 1,
+					"grad1" : [ 0.27, 0.35, 0.47, 1.0 ],
+					"grad2" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"id" : "obj-12",
 					"maxclass" : "panel",
+					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2187.025240705771921, 609.148176597962674, 48.3333340883255, 23.0 ],
+					"patching_rect" : [ 114.0, 366.0, 495.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.100000202655792, -0.144270839663477, 238.038457177495843, 47.0 ],
-					"style" : "rf-1"
+					"presentation_rect" : [ 5.0, 5.0, 495.0, 52.0 ],
+					"varname" : "autohelp_top_panel"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
-					"source" : [ "obj-106", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"source" : [ "obj-107", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"order" : 1,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-122", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 1 ],
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
-					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-67", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"source" : [ "obj-74", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-8", 0 ]
+					"color" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
  ],
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-87", "obj-69" ]
+		"dependency_cache" : [ 			{
+				"name" : "autopatch.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/rf.autopatch",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -1115,15 +885,6 @@
 				"multi" : 0
 			}
 , 			{
-				"name" : "newobjRed-1",
-				"default" : 				{
-					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
 					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
@@ -1304,11 +1065,6 @@
 				"multi" : 0
 			}
 , 			{
-				"name" : "rf-2",
-				"parentstyle" : "rf",
-				"multi" : 0
-			}
-, 			{
 				"name" : "rf.style",
 				"default" : 				{
 					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
@@ -1323,133 +1079,6 @@
 					}
 ,
 					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontname" : [ "Inconsolata Regular" ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.996078431372549, 0.996078431372549, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 0.196078431372549, 0.196078431372549, 0.196078431372549, 1.0 ],
-					"textjustification" : [ 0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "rf.style-1",
-				"default" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.985905349254608, 0.57873809337616, 0.216726183891296, 1.0 ],
-					"fontname" : [ "Inconsolata Regular" ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.996078431372549, 0.996078431372549, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 0.196078431372549, 0.196078431372549, 0.196078431372549, 1.0 ],
-					"textjustification" : [ 0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "rf.style-2",
-				"default" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.985905349254608, 0.57873809337616, 0.216726183891296, 1.0 ],
-					"fontname" : [ "Inconsolata Regular" ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.996078431372549, 0.996078431372549, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 0.196078431372549, 0.196078431372549, 0.196078431372549, 1.0 ],
-					"textjustification" : [ 0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "rf.style-3",
-				"default" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.985905349254608, 0.57873809337616, 0.216726183891296, 1.0 ],
-					"elementcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontname" : [ "Inconsolata Regular" ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.996078431372549, 0.996078431372549, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 0.196078431372549, 0.196078431372549, 0.196078431372549, 1.0 ],
-					"textjustification" : [ 0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "rf.style-4",
-				"default" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.985905349254608, 0.57873809337616, 0.216726183891296, 1.0 ],
-					"elementcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontname" : [ "Inconsolata Regular" ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.996078431372549, 0.996078431372549, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 0.196078431372549, 0.196078431372549, 0.196078431372549, 1.0 ],
-					"textjustification" : [ 0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "rf.white",
-				"default" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.971521615982056, 0.504485130310059, 0.166428223252296, 1.0 ],
 					"fontname" : [ "Inconsolata Regular" ],
 					"fontsize" : [ 14.0 ],
 					"selectioncolor" : [ 0.996078431372549, 0.996078431372549, 0.0, 1.0 ],

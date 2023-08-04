@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 994.0, 87.0, 892.0, 959.0 ],
+		"rect" : [ 100.0, 87.0, 892.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.5, 830.000001668930054, 321.0, 50.0 ],
+					"patching_rect" : [ 23.5, 855.000001668930054, 321.0, 50.0 ],
 					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
 					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
@@ -58,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.5, 830.000001668930054, 298.0, 20.0 ],
+					"patching_rect" : [ 23.5, 855.000001668930054, 298.0, 20.0 ],
 					"text" : "[draw] library created by: remi cady freer"
 				}
 
@@ -107,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 512.0, 354.0, 271.0, 33.0 ],
+					"patching_rect" : [ 511.0, 379.0, 271.0, 33.0 ],
 					"text" : "All shapes start off white, and can be coloured using the draw.colour object"
 				}
 
@@ -118,7 +118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 230.0, 63.0, 20.0 ],
+					"patching_rect" : [ 372.0, 255.0, 63.0, 20.0 ],
 					"text" : "y position"
 				}
 
@@ -130,7 +130,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 472.0, 262.0, 147.0, 22.0 ],
+					"patching_rect" : [ 471.0, 287.0, 147.0, 22.0 ],
 					"text" : "draw.triangle 80 20 0 -100"
 				}
 
@@ -142,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 472.0, 308.0, 140.0, 22.0 ],
+					"patching_rect" : [ 471.0, 333.0, 140.0, 22.0 ],
 					"text" : "draw.colour 0.4 0.2 0.8 1"
 				}
 
@@ -154,7 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 39.5, 385.0, 76.0, 22.0 ],
+					"patching_rect" : [ 38.5, 410.0, 76.0, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -165,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 230.0, 65.0, 20.0 ],
+					"patching_rect" : [ 261.0, 255.0, 65.0, 20.0 ],
 					"text" : "x position"
 				}
 
@@ -176,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 230.0, 50.0, 20.0 ],
+					"patching_rect" : [ 59.0, 255.0, 50.0, 20.0 ],
 					"text" : "Width"
 				}
 
@@ -187,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 230.0, 50.0, 20.0 ],
+					"patching_rect" : [ 150.0, 255.0, 50.0, 20.0 ],
 					"text" : "Height"
 				}
 
@@ -200,7 +200,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 375.5, 262.0, 50.0, 22.0 ]
+					"patching_rect" : [ 374.5, 287.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -212,7 +212,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 276.5, 262.0, 50.0, 22.0 ]
+					"patching_rect" : [ 275.5, 287.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -224,7 +224,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 177.5, 262.0, 50.0, 22.0 ]
+					"patching_rect" : [ 176.5, 287.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 78.5, 262.0, 50.0, 22.0 ]
+					"patching_rect" : [ 77.5, 287.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -247,7 +247,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 39.5, 308.0, 360.0, 22.0 ],
+					"patching_rect" : [ 38.5, 333.0, 360.0, 22.0 ],
 					"text" : "draw.triangle"
 				}
 
@@ -268,7 +268,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 39.5, 424.0, 305.0, 415.0 ],
+					"patching_rect" : [ 38.5, 449.0, 305.0, 415.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -289,7 +289,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 39.5, 153.0, 237.926914557647478, 46.855729160336523 ],
+					"patching_rect" : [ 38.5, 152.0, 236.926914557647478, 72.855729160336523 ],
 					"viewvisibility" : 1
 				}
 
@@ -298,7 +298,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 49.0, 221.427864580168261, 481.5, 221.427864580168261 ],
+					"midpoints" : [ 48.0, 246.427864580168261, 480.5, 246.427864580168261 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -322,7 +322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"midpoints" : [ 481.5, 344.5, 106.0, 344.5 ],
+					"midpoints" : [ 480.5, 369.5, 105.0, 369.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -344,7 +344,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 88.0, 302.5, 134.25, 302.5 ],
+					"midpoints" : [ 87.0, 327.5, 133.25, 327.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -352,7 +352,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
-					"midpoints" : [ 187.0, 302.5, 219.5, 302.5 ],
+					"midpoints" : [ 186.0, 327.5, 218.5, 327.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -360,7 +360,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 3 ],
-					"midpoints" : [ 286.0, 295.5, 304.75, 295.5 ],
+					"midpoints" : [ 285.0, 320.5, 303.75, 320.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -368,7 +368,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 4 ],
-					"midpoints" : [ 385.0, 302.5, 390.0, 302.5 ],
+					"midpoints" : [ 384.0, 327.5, 389.0, 327.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

@@ -153,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 448.0, 446.285714285714334, 53.0, 22.0 ],
+					"patching_rect" : [ 448.0, 406.85714285714289, 53.0, 22.0 ],
 					"text" : "draw.cut"
 				}
 
@@ -394,7 +394,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 448.0, 406.85714285714289, 83.0, 22.0 ],
+					"patching_rect" : [ 448.0, 446.285714285714334, 83.0, 22.0 ],
 					"text" : "draw.intersect"
 				}
 

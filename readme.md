@@ -1,7 +1,7 @@
 # Draw Library for Maxmsp
 
+A simple package that wraps Max MSP's inbuit jitter objects (mainly jit.graphics) for easier and more intitive use.
 
-A package that provides a simpler interface and workflow for many of Max MSP's jitter objects. Mainly the jit.graphics object.
 Please contact remi.cady.freer@gmail.com if you find any major bugs.
 
 

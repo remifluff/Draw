@@ -1,6 +1,6 @@
 {
     "author" : "Remi Cady Freer",
-    "description" : "Use easing functions in Max for audio, visuals, and automation.",
+    "description" : "A simple package that wraps maxMSP's inbuit jitter objects for easier and more intitive use.",
     "homepatcher" : "Draw Overview.maxhelp",
     "max_version_min" : "8.0", "max_version_max" : "none",
     "name" : "Draw",

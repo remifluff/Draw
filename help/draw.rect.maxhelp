@@ -343,32 +343,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 88.0, 302.5, 49.0, 302.5 ],
+					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 88.0, 302.5, 123.25, 302.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 187.0, 302.5, 123.25, 302.5 ],
+					"destination" : [ "obj-2", 2 ],
+					"midpoints" : [ 187.0, 302.5, 197.5, 302.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
-					"midpoints" : [ 286.0, 295.5, 197.5, 295.5 ],
+					"destination" : [ "obj-2", 3 ],
+					"midpoints" : [ 286.0, 295.5, 271.75, 295.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 3 ],
-					"midpoints" : [ 385.0, 302.5, 271.75, 302.5 ],
+					"destination" : [ "obj-2", 4 ],
+					"midpoints" : [ 385.0, 302.5, 346.0, 302.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

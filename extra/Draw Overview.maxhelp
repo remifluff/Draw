@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 955.166680783033371, 621.285717504365039, 417.333329349756241, 22.0 ],
+					"patching_rect" : [ 876.000006794929504, 589.000001609325409, 417.333329349756241, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 955.000006794929504, 557.285714285714221, 120.0, 22.0 ],
+					"patching_rect" : [ 876.000006794929504, 531.285714285714221, 120.0, 22.0 ],
 					"text" : "draw.colour 0\\,5 1 0.6"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 955.166680783033371, 493.285717504365039, 56.0, 22.0 ],
+					"patching_rect" : [ 876.166680783033371, 467.285717504365039, 56.0, 22.0 ],
 					"text" : "draw.join"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1084.000006794929504, 379.285714285714221, 135.0, 22.0 ],
+					"patching_rect" : [ 1072.533322393894196, 334.285714285714221, 135.0, 22.0 ],
 					"text" : "draw.transform 100 100"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1151.533322393894196, 322.285714285714221, 105.0, 22.0 ],
+					"patching_rect" : [ 1072.533322393894196, 296.285714285714221, 105.0, 22.0 ],
 					"text" : "draw.intersect_cut"
 				}
 
@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 955.166680783033371, 426.285717504365039, 56.0, 22.0 ],
+					"patching_rect" : [ 876.166680783033371, 400.285717504365039, 56.0, 22.0 ],
 					"text" : "draw.join"
 				}
 
@@ -129,7 +129,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1151.533322393894196, 240.285710381609988, 61.0, 22.0 ],
+					"patching_rect" : [ 1072.533322393894196, 214.285710381609988, 61.0, 22.0 ],
 					"text" : "draw.rect"
 				}
 
@@ -141,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 955.166680783033371, 317.285714285714221, 128.033305674791336, 22.0 ],
+					"patching_rect" : [ 895.166680783033371, 296.285714285714221, 128.033305674791336, 22.0 ],
 					"text" : "draw.cut"
 				}
 
@@ -165,7 +165,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1242.533322393894196, 240.285710381609988, 61.0, 22.0 ],
+					"patching_rect" : [ 1158.533322393894196, 214.285710381609988, 61.0, 22.0 ],
 					"text" : "draw.text"
 				}
 
@@ -177,7 +177,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1064.199986457824707, 240.285710381609988, 61.0, 22.0 ],
+					"patching_rect" : [ 985.199986457824707, 210.285710381609988, 61.0, 22.0 ],
 					"text" : "draw.line"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 955.166680783033371, 240.285710381609988, 65.0, 22.0 ],
+					"patching_rect" : [ 876.166680783033371, 214.285710381609988, 65.0, 22.0 ],
 					"text" : "draw.circle"
 				}
 
@@ -201,29 +201,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1353.500010132789612, 240.285710381609988, 49.0, 22.0 ],
+					"patching_rect" : [ 1274.333336144685745, 214.285710381609988, 49.0, 22.0 ],
 					"text" : "draw.fill"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-67",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "draw.screen.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 955.166680783033371, 695.0, 305.0, 415.0 ],
-					"viewvisibility" : 1
 				}
 
 			}
@@ -382,7 +361,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 448.0, 365.000003218650818, 56.0, 22.0 ],
+					"patching_rect" : [ 448.0, 369.000003218650818, 56.0, 22.0 ],
 					"text" : "draw.join"
 				}
 
@@ -619,16 +598,37 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-38",
+					"id" : "obj-61",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "draw.settings.maxpat",
+					"name" : "draw.screen.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 876.000006794929504, 637.0, 300.0, 387.772408244637518 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-77",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "draw.metro.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 955.166680783033371, 58.857142857142776, 238.926914557647478, 75.142857142857224 ],
+					"patching_rect" : [ 886.0, 28.0, 237.926914557647478, 73.286458457763729 ],
 					"viewvisibility" : 1
 				}
 
@@ -638,46 +638,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-96", 1 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"order" : 4,
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"order" : 3,
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"order" : 1,
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
-					"order" : 2,
-					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -699,6 +659,46 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 1 ],
 					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 0,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 4,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"order" : 3,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"order" : 1,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"order" : 2,
+					"source" : [ "obj-77", 0 ]
 				}
 
 			}
@@ -753,7 +753,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
+					"destination" : [ "obj-61", 0 ],
 					"source" : [ "obj-96", 0 ]
 				}
 
@@ -837,6 +837,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "draw.metro.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "draw.opacity.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -887,13 +894,6 @@
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "draw.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

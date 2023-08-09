@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-87",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 254.0, 373.0, 321.0, 50.0 ],
+					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
+					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 254.0, 373.0, 298.0, 20.0 ],
+					"text" : "[draw] library created by: remi cady freer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -113,11 +138,11 @@
 					"comment" : "",
 					"hint" : "image two",
 					"id" : "obj-5",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 297.0, 35.0, 30.0, 30.0 ]
 				}
 
@@ -127,7 +152,7 @@
 					"comment" : "",
 					"hint" : "combined image",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -140,11 +165,11 @@
 					"comment" : "",
 					"hint" : "image one",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 93.0, 35.0, 30.0, 30.0 ]
 				}
 
@@ -198,6 +223,12 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-87", "obj-69" ]
 			}
  ]
 	}

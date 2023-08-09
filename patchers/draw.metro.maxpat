@@ -48,7 +48,7 @@
 					"patching_rect" : [ 21.0617715716362, 0.855729160336523, 169.666667342185974, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.100000202655792, 1.180729297427206, 85.324996277522814, 20.0 ],
-					"text" : "draw.settings",
+					"text" : "draw.metro",
 					"textcolor" : [ 0.278067648410797, 0.278119802474976, 0.27805483341217, 1.0 ]
 				}
 
@@ -92,7 +92,7 @@
 				"box" : 				{
 					"comment" : "Height",
 					"id" : "obj-4",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -105,7 +105,7 @@
 				"box" : 				{
 					"comment" : "Width",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -198,7 +198,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1336.666696429252625, 131.133335173130035, 321.0, 50.0 ],
+					"patching_rect" : [ 306.666696429252625, 709.613808811889157, 321.0, 50.0 ],
 					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
 					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
@@ -210,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1336.666696429252625, 131.133335173130035, 298.0, 20.0 ],
+					"patching_rect" : [ 306.666696429252625, 709.613808811889157, 298.0, 20.0 ],
 					"text" : "[draw] library created by: remi cady freer"
 				}
 
@@ -412,7 +412,7 @@
 				"box" : 				{
 					"comment" : "Trigger",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -437,7 +437,7 @@
 				"box" : 				{
 					"comment" : "On/Off",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -618,6 +618,22 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "autopatch.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ut.autopatch.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-87", "obj-69" ]
 			}

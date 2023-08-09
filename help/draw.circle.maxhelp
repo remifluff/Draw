@@ -41,31 +41,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 13.0,
-					"id" : "obj-87",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 14.666667103767395, 829.3333580493927, 321.0, 50.0 ],
-					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
-					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 14.666667103767395, 829.3333580493927, 298.0, 20.0 ],
-					"text" : "[draw] library created by: remi cady freer"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -259,16 +234,16 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-1",
+					"id" : "obj-12",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "draw.screen.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
+					"name" : "draw.metro.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.5, 429.0, 305.0, 415.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 43.5, 139.0, 237.926914557647478, 73.286458457763729 ],
 					"viewvisibility" : 1
 				}
 
@@ -280,16 +255,16 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-12",
+					"id" : "obj-10",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "draw.settings.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 1,
+					"name" : "draw.screen.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 25.0, 140.0, 237.926914557647478, 46.855729160336523 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 43.0, 418.0, 300.0, 387.772408244637518 ],
 					"viewvisibility" : 1
 				}
 
@@ -313,7 +288,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -398,6 +373,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "draw.metro.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "draw.overlay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -406,13 +388,6 @@
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "draw.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -448,10 +423,6 @@
 			}
  ],
 		"autosave" : 0,
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-87", "obj-69" ]
-			}
- ],
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

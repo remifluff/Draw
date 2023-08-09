@@ -40,26 +40,43 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontsize" : 13.0,
-					"id" : "obj-87",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 51.349999159574622, 910.500012397766113, 321.0, 50.0 ],
-					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
-					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-20",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "draw.metro.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 40.0, 124.0, 237.926914557647478, 73.286458457763729 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "comment",
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "draw.screen.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 51.349999159574622, 910.500012397766113, 298.0, 20.0 ],
-					"text" : "[draw] library created by: remi cady freer"
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 43.299999654293117, 624.0, 300.0, 387.772408244637518 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -70,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 470.0, 333.666666150093079, 190.0, 22.0 ],
+					"patching_rect" : [ 458.0, 393.666666150093079, 190.0, 22.0 ],
 					"text" : "draw.colour 0. 0.214356 0.3125 1."
 				}
 
@@ -82,7 +99,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 470.0, 273.0, 188.0, 22.0 ],
+					"patching_rect" : [ 458.0, 333.0, 188.0, 22.0 ],
 					"text" : "draw.text \"hidden text\" 50 -120 50"
 				}
 
@@ -94,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 470.0, 380.799999833106995, 255.0, 22.0 ],
+					"patching_rect" : [ 458.0, 440.799999833106995, 255.0, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -106,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 735.0, 303.666666150093079, 175.0, 22.0 ],
+					"patching_rect" : [ 723.0, 363.666666150093079, 175.0, 22.0 ],
 					"text" : "draw.fill 0.85625 0.961592 1. 1."
 				}
 
@@ -118,7 +135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 55.299999654293117, 463.799999833106995, 255.0, 22.0 ],
+					"patching_rect" : [ 43.299999654293117, 523.799999833106995, 255.0, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -130,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 286.299999654293117, 333.666666150093079, 140.0, 22.0 ],
+					"patching_rect" : [ 274.299999654293117, 393.666666150093079, 140.0, 22.0 ],
 					"text" : "draw.colour 0.5 0.1 0.3 1"
 				}
 
@@ -142,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 55.299999654293117, 333.666666150093079, 196.0, 22.0 ],
+					"patching_rect" : [ 43.299999654293117, 393.666666150093079, 196.0, 22.0 ],
 					"text" : "draw.colour 1. 0.724043 0.1125 0.5"
 				}
 
@@ -154,7 +171,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.29999965429306, 236.166674852371216, 107.0, 22.0 ],
+					"patching_rect" : [ 345.29999965429306, 296.166674852371216, 107.0, 22.0 ],
 					"text" : "scale 0 100 -60 60"
 				}
 
@@ -166,7 +183,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 357.299999654293117, 208.166682839393616, 72.0, 22.0 ],
+					"patching_rect" : [ 345.299999654293117, 268.166682839393616, 72.0, 22.0 ],
 					"text" : "counter 100"
 				}
 
@@ -178,7 +195,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 55.299999654293117, 402.799999833106995, 255.0, 22.0 ],
+					"patching_rect" : [ 43.299999654293117, 462.799999833106995, 255.0, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -190,7 +207,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 286.299999654293117, 282.700000047683716, 141.0, 22.0 ],
+					"patching_rect" : [ 274.299999654293117, 342.700000047683716, 141.0, 22.0 ],
 					"text" : "draw.rect 100 100 25 -25"
 				}
 
@@ -202,7 +219,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 55.299999654293117, 265.700000047683716, 149.0, 22.0 ],
+					"patching_rect" : [ 43.299999654293117, 325.700000047683716, 149.0, 22.0 ],
 					"text" : "draw.circle 100 100 -25 25"
 				}
 
@@ -240,49 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 2.0, 708.0, 62.0 ],
-					"text" : "draw.layer"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "draw.screen.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 55.299999654293117, 501.5, 305.0, 415.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-14",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "draw.settings.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 55.299999654293117, 117.0, 237.926914557647478, 73.286458457763729 ],
-					"viewvisibility" : 1
+					"text" : "draw.overlay"
 				}
 
 			}
@@ -310,50 +285,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 4,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 64.799999654293117, 198.643229228881864, 479.5, 198.643229228881864 ],
-					"order" : 1,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 64.799999654293117, 198.993229252723722, 295.799999654293117, 198.993229252723722 ],
-					"order" : 3,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 64.799999654293117, 199.726570648578672, 366.799999654293117, 199.726570648578672 ],
-					"order" : 2,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 64.799999654293117, 197.976562303928404, 744.5, 197.976562303928404 ],
-					"order" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -370,6 +301,50 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 4,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 49.5, 224.643229228881864, 467.5, 224.643229228881864 ],
+					"order" : 1,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 49.5, 223.493229252723722, 283.799999654293117, 223.493229252723722 ],
+					"order" : 3,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"midpoints" : [ 49.5, 225.226570648578672, 354.799999654293117, 225.226570648578672 ],
+					"order" : 2,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 49.5, 225.976562303928404, 732.5, 225.976562303928404 ],
+					"order" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -445,6 +420,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "draw.metro.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "draw.overlay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -460,13 +442,6 @@
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "draw.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -509,10 +484,6 @@
 			}
  ],
 		"autosave" : 0,
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-87", "obj-69" ]
-			}
- ],
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

@@ -47,10 +47,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 30.0, 280.0, 110.0 ],
+					"patching_rect" : [ 230.0, 30.0, 282.0, 110.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 311.0, 110.5, 280.0, 110.0 ],
+					"presentation_rect" : [ 568.0, 27.0, 282.0, 110.0 ],
 					"text" : "remi cady freer - \nut.autopactch was origonally rbtnk.autoBpatcher, i cannot find the origonal autor or website but all credit goes to them. \n\nI must have downloaded this patch is 2016 and used it since them. It just lets patchers automatically open as bpatchers"
 				}
 
@@ -359,7 +359,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "autopatch.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/rf.autopatch",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

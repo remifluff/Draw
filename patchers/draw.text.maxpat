@@ -40,13 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-87",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 906.0, 684.000006675720215, 321.0, 50.0 ],
+					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
+					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 906.0, 684.000006675720215, 298.0, 20.0 ],
+					"text" : "[draw] library created by: remi cady freer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "Trigger",
 					"id" : "obj-8",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 7.437487304210663, 30.0, 30.0 ]
 				}
 
@@ -60,17 +85,6 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 533.750000039736278, 131.0, 192.0, 22.0 ],
 					"text" : "ut.location_in #3 #4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 715.0, 451.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -188,7 +202,7 @@
 					"cool" : 1,
 					"hint" : "y position",
 					"id" : "obj-43",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -203,7 +217,7 @@
 					"cool" : 1,
 					"hint" : "x position",
 					"id" : "obj-44",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -230,7 +244,7 @@
 					"cool" : 1,
 					"hint" : "Text size",
 					"id" : "obj-58",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -245,7 +259,7 @@
 					"cool" : 1,
 					"hint" : "Text in",
 					"id" : "obj-59",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -346,7 +360,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -510,6 +524,26 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "ut.default.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ut.location_in.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-87", "obj-69" ]
 			}
  ],
 		"styles" : [ 			{

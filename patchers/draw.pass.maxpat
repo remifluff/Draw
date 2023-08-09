@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-87",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 284.0, 300.0, 321.0, 50.0 ],
+					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
+					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 284.0, 300.0, 298.0, 20.0 ],
+					"text" : "[draw] library created by: remi cady freer"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"hint" : "trigger output",
@@ -114,7 +139,11 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-87", "obj-69" ]
+			}
+ ]
 	}
 
 }

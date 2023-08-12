@@ -163,6 +163,7 @@
 , 			{
 				"box" : 				{
 					"comment" : "",
+					"cool" : 1,
 					"id" : "obj-5",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -205,7 +206,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 70.0, 40.0, 30.0, 30.0 ]
 				}
 

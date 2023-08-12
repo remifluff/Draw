@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1099.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 892.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 100.0, 271.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-87",
 					"linecount" : 3,
@@ -65,36 +77,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 105.0, 44.0, 22.0 ],
-					"text" : "ut.inlet"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.0, 105.0, 44.0, 22.0 ],
-					"text" : "ut.inlet"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 195.0, 541.0, 181.0, 22.0 ],
+					"patching_rect" : [ 181.0, 489.0, 181.0, 22.0 ],
 					"text" : "jit.op @op !pass pass pass pass"
 				}
 
@@ -106,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 357.0, 384.0, 89.0, 22.0 ],
+					"patching_rect" : [ 357.0, 384.0, 102.0, 22.0 ],
 					"text" : "jit.op @op max"
 				}
 
@@ -118,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 271.0, 273.0, 187.0, 22.0 ],
+					"patching_rect" : [ 332.0, 256.0, 187.0, 22.0 ],
 					"text" : "jit.op @op pass !pass !pass !pass"
 				}
 
@@ -130,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 514.0, 282.0, 187.0, 22.0 ],
+					"patching_rect" : [ 440.0, 294.0, 187.0, 22.0 ],
 					"text" : "jit.op @op pass !pass !pass !pass"
 				}
 
@@ -142,8 +130,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 172.0, 384.0, 79.0, 22.0 ],
-					"text" : "jit.alphablend"
+					"patching_rect" : [ 195.0, 326.0, 135.0, 22.0 ],
+					"text" : "jit.alphablend @mode 0"
 				}
 
 			}
@@ -151,11 +139,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.0, 684.0, 30.0, 30.0 ]
+					"patching_rect" : [ 195.0, 674.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -164,11 +152,11 @@
 					"comment" : "Bottom Layer",
 					"cool" : 1,
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 325.0, 7.0, 30.0, 30.0 ]
 				}
 
@@ -177,11 +165,11 @@
 				"box" : 				{
 					"comment" : "Top Layer",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 31.0, 26.0, 30.0, 30.0 ]
 				}
 
@@ -199,6 +187,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 2,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -254,16 +250,14 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "ut.inlet.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
 			}
  ],
-		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-87", "obj-69" ]
 			}

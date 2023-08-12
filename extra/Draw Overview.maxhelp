@@ -69,8 +69,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 876.000006794929504, 531.285714285714221, 120.0, 22.0 ],
-					"text" : "draw.colour 0\\,5 1 0.6"
+					"patching_rect" : [ 876.000006794929504, 531.285714285714221, 130.0, 22.0 ],
+					"text" : "draw.colour 1 0.4 0.1 1"
 				}
 
 			}
@@ -929,13 +929,6 @@
 			}
 , 			{
 				"name" : "ut.default.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ut.inlet.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

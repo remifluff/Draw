@@ -834,7 +834,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.50000524520874, 895.033347547054291, 321.0, 50.0 ],
+					"patching_rect" : [ 44.50000524520874, 737.033347547054291, 321.0, 50.0 ],
 					"text" : "\ncontact: remi.cady.freer@gmail.com\nopen source under the MIT License",
 					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
@@ -846,7 +846,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.50000524520874, 895.033347547054291, 298.0, 20.0 ],
+					"patching_rect" : [ 44.50000524520874, 737.033347547054291, 298.0, 20.0 ],
 					"text" : "[draw] library created by: remi cady freer"
 				}
 

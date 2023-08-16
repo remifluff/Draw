@@ -40,6 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 109.600000202655792, 105.859895823029547, 171.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 136.788457058286554, 1.180729297427206, 102.0, 20.0 ],
+					"text" : "draw version: 1.2",
+					"textcolor" : [ 0.278067648410797, 0.278119802474976, 0.27805483341217, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"id" : "obj-16",
 					"maxclass" : "comment",

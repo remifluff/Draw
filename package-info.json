@@ -1,7 +1,7 @@
 {
     "author" : "Remi Cady Freer",
-    "description" : "A simple package that wraps maxMSP's inbuit jitter objects for easier and more intitive use.",
-    "homepatcher" : "Draw Overview.maxhelp",
+    "description" : "A simple package that wraps maxMSP's inbuit jitter objects for easier and more intuitive use.",
+    "homepatcher" : "Draw Overview.maxpat",
     "max_version_min" : "8.0", "max_version_max" : "none",
     "name" : "Draw",
     "os" : {
@@ -18,7 +18,7 @@
         "reverse_domain" : "com.remifreer",
         "copyright" : "Copyright (c) 2022 Remi Cady Freer"
     },
-    "tags" : [ ],
+    "tags" : ["graphics", "drawing" ,"visualization", "jitter", "toolkit"],
     "version" : "1.1.1",
     "website" : "http://remifreer.com"
 }

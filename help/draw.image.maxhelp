@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 264.0, 401.923440592857332, 150.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Drage tyo change the size of the monkys hat"
 				}
 
@@ -61,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 251.350975513458252, 150.0, 37.0 ],
-					"text" : "Click to change the monkeys hat"
+					"text" : "Click to give the monkeys hat"
 				}
 
 			}
@@ -99,7 +98,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 326.952303976928363, 102.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "hat_cowboy.png"
 				}
 
@@ -114,7 +112,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 300.153421295364069, 96.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "hat_fedora.png"
 				}
 
@@ -129,7 +126,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 350.643229228881864, 97.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "hat_bucket.png"
 				}
 
@@ -144,7 +140,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 270.555655932235595, 89.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "hat_beret.png"
 				}
 

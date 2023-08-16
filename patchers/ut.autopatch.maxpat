@@ -47,10 +47,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 30.0, 282.0, 110.0 ],
+					"patching_rect" : [ 230.0, 30.0, 284.0, 110.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 568.0, 27.0, 282.0, 110.0 ],
+					"presentation_rect" : [ 568.0, 27.0, 284.0, 110.0 ],
 					"text" : "remi cady freer - \nut.autopactch was origonally rbtnk.autoBpatcher, i cannot find the origonal autor or website but all credit goes to them. \n\nI must have downloaded this patch is 2016 and used it since them. It just lets patchers automatically open as bpatchers"
 				}
 
@@ -300,7 +300,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -319,7 +319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 77.5, 95.0, 22.0 ],
+					"patching_rect" : [ 67.0, 182.5, 95.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "autopatch.js",
 						"parameter_enable" : 0
@@ -357,15 +357,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "autopatch.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

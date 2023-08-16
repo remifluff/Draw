@@ -59,7 +59,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1661.0, 625.0, 75.0, 22.0 ],
+					"patching_rect" : [ 1557.0, 497.0, 75.0, 22.0 ],
 					"text" : "ut.autopatch"
 				}
 
@@ -1420,7 +1420,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 925.116668534278915, 1446.466691136360168, 50.0, 22.0 ],
-					"text" : "218 38"
+					"text" : "-10 97"
 				}
 
 			}
@@ -1831,7 +1831,7 @@
 					"patching_rect" : [ 925.116668534278915, 1491.833359837532043, 121.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 365.083345890045166, 69.999999999999943, 22.0 ],
-					"text" : "220 36"
+					"text" : "-10 97"
 				}
 
 			}
@@ -1845,7 +1845,7 @@
 					"patching_rect" : [ 633.666665434837341, 1480.837603054881129, 116.000001460313797, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.399999856948853, 365.083345890045166, 89.600000560283661, 22.0 ],
-					"text" : "218 38 0"
+					"text" : "-10 97 0"
 				}
 
 			}
@@ -1931,7 +1931,7 @@
 				"box" : 				{
 					"comment" : "Mouse Click",
 					"id" : "obj-91",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1956,7 +1956,7 @@
 				"box" : 				{
 					"comment" : "Mouse Position",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1982,7 +1982,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2552,22 +2552,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "autopatch.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ut.autopatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-87", "obj-69" ]
 			}

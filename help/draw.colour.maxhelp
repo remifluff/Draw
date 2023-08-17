@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 997.0, 779.0 ],
+		"rect" : [ 754.0, 87.0, 652.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -502,77 +502,77 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "autopatch.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.circle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.colour.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.fill.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.join.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.metro.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.rect.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.autopatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.default.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.location_in.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

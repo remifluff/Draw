@@ -128,7 +128,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 713.0, 123.0, 165.0, 22.0 ],
-					"text" : "0. 0.58 0.212394 1."
+					"text" : "1. 0.56 0.969014 1."
 				}
 
 			}
@@ -482,63 +482,63 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "autopatch.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.circle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.fill.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.metro.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.overlay.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.autopatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.default.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.location_in.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

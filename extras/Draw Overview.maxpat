@@ -41,6 +41,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 293.50000524520874, 482.857027931823268, 49.0, 22.0 ],
+					"text" : "draw.fill"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -647,7 +659,7 @@
 								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 223.0, 359.85714285714289, 65.0, 22.0 ],
@@ -855,7 +867,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 98.600000500679016, 664.76666784286499, 1085.016656935214996, 664.76666784286499, 1085.016656935214996, 148.213797451243863, 739.866660296916962, 148.213797451243863 ],
+					"midpoints" : [ 98.600000500679016, 685.76666784286499, 1145.5, 685.76666784286499, 1145.5, 148.213797451243863, 739.866660296916962, 148.213797451243863 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1023,206 +1035,202 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "autopatch.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.circle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.colour.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.cut.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.fill.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.hold.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.image.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.intersect.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.intersect_cut.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.invert.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.join.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.line.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.metro.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.opacity.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.overlay.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.pass.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.pixel.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.rect.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.rotate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.scale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.text.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.transform.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.triangle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.webcam.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.autopatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.default.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.location_in.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Draw/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-87", "obj-69" ]
-			}
- ],
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

@@ -9,4 +9,4 @@ Please contact remi.cady.freer@gmail.com if you find any major bugs.
 *free and open source under the MIT License*
 
 
-## Current Verion 1.2.2
+## Current Version 1.2.2

@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 794.0, 200.286458457763729, 24.0, 24.0 ]
+					"patching_rect" : [ 598.0, 286.172662580082488, 24.0, 24.0 ]
 				}
 
 			}
@@ -131,7 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 463.0, 522.0, 76.0, 22.0 ],
+					"patching_rect" : [ 700.5, 455.0, 76.0, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -143,8 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 520.0, 471.643229228881864, 109.0, 22.0 ],
-					"text" : "draw.fill 0. 0. 0. 0.9"
+					"patching_rect" : [ 700.5, 281.66666716337204, 109.0, 22.0 ],
+					"text" : "draw.fill 0. 0. 0. 0.1"
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 794.0, 339.0, 35.0, 22.0 ],
+					"patching_rect" : [ 598.0, 424.886204122318759, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -167,7 +167,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 63.0, 321.166668772697449, 85.0, 22.0 ],
+					"patching_rect" : [ 68.5, 334.66666716337204, 85.0, 22.0 ],
 					"text" : "counter 2 1 80"
 				}
 
@@ -179,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 31.5, 669.772408244637518, 76.0, 22.0 ],
+					"patching_rect" : [ 31.5, 633.772408244637518, 76.0, 22.0 ],
 					"text" : "draw.overlay"
 				}
 
@@ -191,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 712.0, 566.0, 60.0, 22.0 ],
+					"patching_rect" : [ 569.0, 551.0, 60.0, 22.0 ],
 					"text" : "draw.hold"
 				}
 
@@ -389,7 +389,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 1 ],
+					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -455,7 +455,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 41.0, 272.226563615230589, 72.5, 272.226563615230589 ],
+					"midpoints" : [ 41.0, 272.226563615230589, 78.0, 272.226563615230589 ],
 					"order" : 4,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -473,8 +473,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 41.0, 252.964843843322797, 529.5, 252.964843843322797 ],
-					"order" : 1,
+					"midpoints" : [ 41.0, 252.964843843322797, 710.0, 252.964843843322797 ],
+					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -491,8 +491,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 41.0, 252.143229228881864, 721.5, 252.143229228881864 ],
-					"order" : 0,
+					"midpoints" : [ 41.0, 252.143229228881864, 578.5, 252.143229228881864 ],
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -514,14 +514,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
+					"midpoints" : [ 578.5, 601.386204122318759, 98.0, 601.386204122318759 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 41.0, 706.772408244637518, 257.25, 706.772408244637518, 257.25, 509.0, 472.5, 509.0 ],
+					"destination" : [ "obj-28", 1 ],
+					"midpoints" : [ 41.0, 665.772408244637518, 838.0, 665.772408244637518, 838.0, 460.0, 767.0, 460.0 ],
 					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -530,7 +531,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 41.0, 768.0, 957.47222375869751, 768.0, 957.47222375869751, 215.0, 1026.94444751739502, 215.0 ],
+					"midpoints" : [ 41.0, 701.772408244637518, 967.97222375869751, 701.772408244637518, 967.97222375869751, 233.0, 1026.94444751739502, 233.0 ],
 					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -539,84 +540,84 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "autopatch.js",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.circle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.colour.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.fill.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.hold.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.metro.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.overlay.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.rotate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "draw.screen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.autopatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.default.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ut.location_in.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw-main/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
